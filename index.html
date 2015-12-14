@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>YEDITOR</title>
+    <script src="js/codemirror.js"></script>
+    <link rel="stylesheet" href="css/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/ace/1.2.2/min/ace.js"> </script>
+   <script type="text/javascript" src="js/script.js"></script> 
+  
+   
+
+</head>
+
+<body> 
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+          </button>
+         <a class="navbar-brand" href="#"><img id='logo-img' src="../images/yeditor-logo.png"></a>
+        </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">EDITOR</a></li>
+              <li><a href="features.html">FEATURES</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <div id='start-jumbotron' class = "jumbotron">
+        <h1>YEDITOR</h1>
+        <p> A web-based code editor with syntax highlighting for all your favorite languages</p>
+    </div>
+    <div class=" coding-section">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="panel-tile"> CODE EDITOR </span>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>YEDITOR </h2>
+                        <button id="pyButton" class="btn btn-default">Python </button>
+                        <button id="jsButton" class="btn btn-default">JavaScript </button>
+                        <!--<button id="phpButton" class="btn btn-default">PHP</button> -->
+                        <button id="perlButton" class="btn btn-default">Perl</button>
+                        <button id="rubyButton"  class="btn btn-default">Ruby</button>
+                        <div id="editor">
+                            # This a python comment
+                            print("YSF Text Editor")
+                            // JavaScript
+                            alert("Js Test Sample")
+                            $query = "fg"
+                                if ($query == 'y'){
+                            echo "done"
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div id="controlPanel">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3>Control Panel</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <a href="javascript:void(0)"  class="btn btn-default"
+                                    id="render-link">Save Document to Drive</a>
+                                     <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+                                   <!-- <a class="g-savetodrive" >Save</a> -->
+                                   <a id="save-local" class="btn btn-default">Save Locally</a>
+                                    <a id="savetodrive-btn"></a>
+                                    <script type="text/javascript" src="https://apis.google.com.js/api.js?
+                                     onload=onApiLoad"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--panel body -->
+        </div><!-- end panel -->
+    </div> <!-- coding section -->
+ </div><!-- container -->
+ 
+  
+    <footer>
+        <p class="footer-heading text-center"> © All rights reserved to YSFDEV Inc. </p>
+    </footer>
+    <!-- bootstrap, gdrive and jquery mins -->
+  <script src="https://apis.google.com/js/platform.js" async defer>
+      {parsetags: 'explicit'}
+    </script> 
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,207 @@
+textarea {
+  resize: none;
+}
+
+  
+
+/* 
+NAVBAR 
+*/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30 !important;
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 4px;
+    opacity:0.9; 
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: red !important;
+    
+}
+
+.navbar-brand img { 
+    width: 136px; 
+    height: 45px; 
+    margin-top: -15px;
+    
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: grey !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+/*
+JUMBOTRON
+*/
+.jumbotron {
+  
+  text-align:center;
+  background-color: rgb(255, 50, 0)  !important;
+  color: #fff !important; 
+}
+
+/*
+EDITOR 
+*/
+#editor {
+  height: 500px;
+   /*
+    position: absolute;
+    top: 100%;
+    right: 40%;
+    bottom: 0;
+    left:5%;
+ */
+}
+
+
+
+/*-----------
+FOOTER
+
+--------*/
+footer {
+    width: 100%;
+    border-top: 8px solid rgb(255, 50, 0);
+    border-radius: 4px;
+    padding: 40px 0;
+    font-size: 9pt;
+    color: #fff;
+    background: #333;
+    margin: auto;
+    width: 100%;
+    margin-top: 30px;
+}
+.footer-heading {
+    font-size: 12pt;
+}
+.footer-column:nth-child(even) {
+    border-left: 1px dotted #fff;
+}
+
+/* HOME PAGE */
+
+html, body { 
+    box-sizing: border-box;
+    margin: 0; padding: 0; border: 0; height:100%; width:100%;
+	background-image:url('../images/background.jpg');
+	max-width: 100%;
+	font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#start-jumbotron{
+    
+    line-height: 2;
+    margin-bottom: 0;
+    width: 100% !important;
+    margin-top: 47px;
+
+}
+
+#controlPanel{
+    
+    margin-top: 20%;
+    
+}
+
+
+.panel {
+    border-radius: 0 !important;
+}
+
+/*
+* FEATURES PAGE
+*/
+#carousel{
+    
+    margin-top: 80px;
+    background-color: #584f48 !important;
+    border: 2px solid #f03e2c ;
+    
+}
+
+#carousel img{
+    
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.carousel h3{
+    
+   color: #f03e2c;
+    
+}
+
+.carousel p{
+    
+   color: #fff;
+    
+}
+
+.carousel-action{
+    
+    background-color: #616161;
+}
+
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+#carausel item active{
+    
+    background-color: orange !important;
+    
+}
+
+/*
+*    ABOUT PAGE
+*/
+.second-panel-heading {
+    background-color:  rgb(255, 50, 0)  !important;
+   
+}
+.second-panel-heading h3 {
+ color: #fff;
+    
+}
